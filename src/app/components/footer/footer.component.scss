@@ -1,0 +1,16 @@
+.footer {
+    text-align: start;
+    background: #1abc9c;
+    color: white;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+        color: red;
+        margin: 0 5px;
+    }
+}

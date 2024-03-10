@@ -5,20 +5,18 @@
             <mat-icon>more_vert</mat-icon>
           </button>
           <mat-menu #menu="matMenu" yPosition="below">
-            <!-- <button mat-menu-item>
-              <mat-icon>dialpad</mat-icon>
-              <span>Redial</span>
-            </button>
-            <button mat-menu-item disabled>
-              <mat-icon>voicemail</mat-icon>
-              <span>Check voice mail</span>
+            <button mat-menu-item>
+              <mat-icon class="material-symbols-outlined">movie</mat-icon>
+              <span>Peliculas nominadas</span>
             </button>
             <button mat-menu-item>
-              <mat-icon>notifications_off</mat-icon>
-              <span>Disable alerts</span>
-            </button> -->
+              <mat-icon class="material-symbols-outlined">
+                how_to_vote
+              </mat-icon>
+              <span>Mis votos</span>
+            </button>
           </mat-menu>
         <span class="header-container-title">{{title}}</span>
     </div>
-    <button mat-stroked-button color="primary">{{userName()}}</button>
+    <button mat-stroked-button color="primary" class="header-user-btn">{{userName()}}</button>
 </header>
